@@ -1,5 +1,5 @@
 class FabricantesController < ApplicationController
-  before_action :set_fabricante, only: [:show, :edit, :update, :destroy]
+  before_action :set_fabricante, only: [:show, :edit, :update, :destroy, :vote]
 
   # GET /fabricantes
   # GET /fabricantes.json
