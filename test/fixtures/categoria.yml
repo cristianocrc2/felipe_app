@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  produto_id: 
+  categoria: MyString
+
+two:
+  produto_id: 
+  categoria: MyString
