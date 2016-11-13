@@ -8,6 +8,7 @@ class User < ActiveRecord::Base
   #->Prelang (user_login:devise/username_login_support)
   belongs_to :representante
   belongs_to :produto
+  belongs_to :fabricante
   def self.find_first_by_auth_conditions(warden_conditions)
     conditions = warden_conditions.dup
     if login = conditions.delete(:login)
