@@ -1,5 +1,5 @@
 class RepresentantesController < ApplicationController
-  before_action :set_representante, only: [:show, :edit, :update, :destroy]
+  before_action :set_representante, only: [:show, :edit, :update, :destroy, :vote]
 
   # GET /representantes
   # GET /representantes.json
