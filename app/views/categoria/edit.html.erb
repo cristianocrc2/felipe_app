@@ -1,6 +1,5 @@
-<h1>Editing categorium</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @categorium %> |
-<%= link_to 'Back', categoria_path %>
+<%- model_class = Categoria -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => Categoria %></h1>
+</div>
+<%= render :partial => 'form' %>
